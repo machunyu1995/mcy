@@ -1,0 +1,1 @@
+<view class="page-section-spacing"><swiper class="swiper" style="width:100%;" indicator-dots="true" autoplay="true" interval="1000" duration="500" indicator-active-color="#d81e06"><block wx:for="{{banner}}" wx:for-item="item" wx:for-index="index" wx:key="index"><swiper-item><image class="img" src="{{item.imageUrl}}"></image></swiper-item></block></swiper></view>

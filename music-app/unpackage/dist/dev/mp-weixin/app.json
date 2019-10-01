@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/find/index",
+    "pages/list/index",
+    "pages/music/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/music.png",
+        "selectedIconPath": "static/images/music-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "iconPath": "static/image/find.png",
+        "selectedIconPath": "static/images/find-on.png",
+        "text": "发现"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

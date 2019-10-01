@@ -1,0 +1,82 @@
+
+.txt {
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 30rpx;
+	margin-left: 30rpx;
+	margin-bottom: 20rpx;
+}
+.container ._ul {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.musicBox {
+	float: left;
+	width: 200rpx;
+	height: 300rpx;
+	position: relative;
+}
+.musicImg {
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 10rpx;
+}
+.g-img {
+	width: 20rpx;
+	height: 20rpx;
+}
+.imgP {
+	font-size: 10px;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	top: 8rpx;
+	right: 19rpx
+}
+.text {
+	font-size: 10px;
+}
+.m-li {
+	width: 100%;
+	height: 500rpx;
+	padding: 10rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-size: 0;
+	position: relative;
+}
+.mBox {
+	width: 100%;
+	height: 20%;
+	background: #eee;
+	border-radius: 0 0 15rpx 15rpx;
+	line-height: 91rpx;
+	text-indent: 10rpx;
+}
+.m-img {
+	width: 100%;
+	height: 80%;
+	border-radius: 15rpx 15rpx 0 0;
+}
+.mP {
+	font-size: 13px;
+}
+.start {
+	position: absolute;
+	top: 31%;
+	left: 45%;
+	width: 67rpx;
+	height: 58rpx;
+}
+.center{
+	background: url(../../static/img/bg.6cb90dbc.png);
+}
+
